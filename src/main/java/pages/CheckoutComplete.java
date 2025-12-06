@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 public class CheckoutComplete {
 	WebDriver driver;
 
-    @FindBy(className="complete-heade")
+    @FindBy(className="complete-header")
     WebElement thankYouMsg;
 
     public CheckoutComplete(WebDriver driver) {
